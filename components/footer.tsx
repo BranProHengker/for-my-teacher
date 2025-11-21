@@ -12,7 +12,7 @@ export function Footer() {
   }
 
   return (
-    <footer className="bg-gradient-to-t from-sky-50 to-transparent py-12 md:py-16 px-4 md:px-8 border-t border-sky-100 relative z-10">
+    <footer className="bg-linear-to-t from-sky-50 to-transparent py-12 md:py-16 px-4 md:px-8 border-t border-sky-100 relative z-10">
       <div className="max-w-4xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           {/* Left section */}
@@ -52,7 +52,7 @@ export function Footer() {
         </div>
 
         {/* Divider */}
-        <div className="h-px bg-gradient-to-r from-transparent via-slate-300 to-transparent mb-8" />
+        <div className="h-px bg-linear-to-r from-transparent via-slate-300 to-transparent mb-8" />
 
         {/* Bottom section */}
         <div className="text-center space-y-4 animate-fadeInUp" style={{ animationDelay: "0.3s" }}>

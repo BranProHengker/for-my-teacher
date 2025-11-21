@@ -22,7 +22,7 @@ const TRACKS: Track[] = [
 
 export const AudioPlayer: React.FC = () => {
   const [isPlaying, setIsPlaying] = useState(false)
-  const [volume, setVolume] = useState(0.3)
+  const [volume, setVolume] = useState(0.5)
   const [currentTrackIndex, setCurrentTrackIndex] = useState(0)
   const [showQueue, setShowQueue] = useState(false)
   const [isMounted, setIsMounted] = useState(false) // Add state to track if component is mounted for autoplay
